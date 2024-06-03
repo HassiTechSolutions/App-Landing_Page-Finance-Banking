@@ -1,0 +1,272 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  position: relative;
+  top: 7px;
+  
+}
+.logo span{
+  position: relative;
+  bottom: 13px;
+  left: -22px;
+  font-weight: bold;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active .nav-link{
+  font-weight: bold;
+  color :#FF5555!important;
+}
+.nav-item .nav-link{
+  font-weight: bold;
+  margin: 0 7px;
+}
+.btn-dark{
+  background-color: black;
+}
+.First-Section{
+  margin: 45px 0;
+  display: grid;
+  gap: 20px;
+}
+.bg1 {
+  position: absolute;
+  top: -130px;
+  left: 130px;
+  z-index: -1;
+  /* clip-path: inset(170px); */
+  width: 60%;
+  transform: rotate(150deg);
+  transform-origin: center;
+}
+
+.First-Section h2{
+  font-family: 'Clash Display', 'Roboto Condensed'!important;
+  font-size: 94px!important;
+  font-weight: 900!important;
+  line-height: 64px;
+  text-align: left;
+
+}
+.video{
+  position: relative;
+  bottom: 5px;
+}
+.video:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.bg2{
+  position: absolute;
+ top: 280px;
+ left: -80px;
+  z-index: 0;
+  width: 90%;
+  transform: rotate(270deg);
+}
+.first-section-img .front{
+ position: absolute;
+ top: -80px;
+ left: -100px;
+  z-index: 3;
+}
+.first-section-img .middle{
+ position: absolute;
+ top: 30px;
+ left: 0px;
+  z-index: 2;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.fw-bolder{
+  font-weight: bolder;
+}
+.first-section-img .last{
+  position: absolute;
+  top: 120px;
+  left: 100px;
+   z-index: 1;
+ }
+.second-section .front{
+ position: absolute;
+ top: 0;
+ left: 50px;
+ transform: rotate(14deg);
+}
+.feature{
+  line-height: 2px;
+  letter-spacing: 6px;
+  color: #FF5555;
+}
+
+.second-section .bg3{
+ position: absolute;
+ top: -50px;
+ left: -50px;
+ transform: rotate(-40deg);
+ z-index: -1;
+}
+.fa-bell{
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #FF5555;
+  padding: 10px;
+  display: flex;
+  font-size: 18px;
+  border-radius: 45px;
+  justify-content: center;
+  align-items: center;
+}
+.col-10 h3{
+  position: absolute;
+  left: -20px;
+  bottom: 2px;
+}
+.third-section .front{
+  position: absolute;
+  top: 0;
+  left: 90px;
+  transform: rotate(14deg);
+  height: 650px;
+ }
+.bg4{
+  position: absolute;
+ top: 50px;
+ left: -50px;
+ transform: rotate(-40deg);
+ z-index: -1;
+}
+.fully{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #FF5555;
+  padding: 8px;
+}
+.fully-sec{
+  padding: 180px 0px 20px 40px;
+}
+.bg5{
+  position: absolute;
+ top: -170px;
+ left: -50px;
+ transform: rotate(-40deg);
+ z-index: -1;
+}
+.circle5{
+  position: absolute;
+ top: -170px;
+ left: -50px;
+ z-index: -1;
+}
+.border-black{
+  border: 2px solid black;
+}
+.test-1{
+  position: absolute;
+  left: 170px;
+  top: 60px;
+}
+.test-2{
+  position: absolute;
+  left: 70px;
+  top: -40px;
+}
+.test-3{
+  position: absolute;
+  left: 299px;
+  top: -40px;
+}
+.test-4{
+  position: absolute;
+  left: 130px;
+  top: 260px;
+}
+.test-5{
+  position: absolute;
+  left: 390px;
+  top: 260px;
+}
+.comma{
+  position: absolute;
+  left: 330px;
+  top: 145px;
+  width: 60px;
+  height: 60px;
+  background-color: #FF5555;
+  padding: 15px;
+  border-radius: 35px;
+}
+.pics{
+  display: flex;
+  align-items: center;
+  grid-gap: 8px;
+}
+.pics .focus{
+  background-color: antiquewhite;
+  border-radius: 25px;
+}
+.pics .next{
+  background-color: rgb(226, 250, 215);
+  border-radius: 25px;
+  filter: blur(1px);
+}
+.name{
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+
+}
+.rounded{
+  border-radius: 14px!important;
+}
+.star1{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.faq-red{
+  background-color: #FF5555;
+  color: #fff;
+}
+.bg6{
+  position: relative;
+  top: 220px;
+  left: -100px;
+  z-index: -1;
+}
+.star2{
+  position: relative;
+  top: 320px;
+  left: -280px;
+  transform: rotate(17deg);
+}
+.footer-sec {
+  display: flex;
+  align-items: center;
+}
+.footer-sec h3{
+  position: relative;
+  top: -18px;
+  left: -16px;
+}
+.hr{
+  width: 100%;
+  height: 8px;
+  background-image: radial-gradient(gray, rgb(243, 243, 243), white);
+}
